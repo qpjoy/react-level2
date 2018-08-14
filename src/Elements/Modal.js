@@ -35,15 +35,11 @@ const ModalWrapper = styled.div`
   align-items: center;
 `;
 
-const ModalCard = styled.div`
-  position: relative;
-  background: white;
-  border-radius: 5px;
-  padding: 15px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  z-index: 10;
-  min-width: 270px;
+const ModalCard = Card.extend`
   margin-bottom: 100px;
+  min-width: 270px;
+  position: relative;
+  z-index: 10;
 `;
 
 const CloseButton = styled.button`
