@@ -14,7 +14,13 @@ class UserProvider extends Component {
   };
 
   return() {
-    <UserContext.Provider>{this.props.children}</UserContext.Provider>;
+    <UserContext.Provider
+      value={{
+        user: this.state
+      }}
+    >
+      {this.props.children}
+    </UserContext.Provider>;
   }
 }
 
