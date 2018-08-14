@@ -1,3 +1,3 @@
-export default () => `
-  transition: all 0.3s ease
+export default (property, length, ease) => `
+  transition: ${propety} ${length} ${ease}
 `;
