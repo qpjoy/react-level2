@@ -26,14 +26,14 @@ export default class Modal extends Component {
 }
 
 const ModalWrapper = styled.div`
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 const ModalCard = Card.extend`
@@ -44,20 +44,20 @@ const ModalCard = Card.extend`
 `;
 
 const CloseButton = styled.button`
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: none;
   background: transparent;
+  border: none;
   padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
 `;
 
 const Background = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
   background: black;
+  height: 100%;
+  left: 0;
+  position: absolute;
   opacity: 0.5;
+  top: 0;
+  width: 100%;
 `;
