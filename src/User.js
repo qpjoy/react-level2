@@ -8,6 +8,8 @@ export default class User extends Component {
         {context => (
           <div>
             <h1>User Info</h1>
+            <h3>{context.user.name}</h3>
+            <h4>context.user.email</h4>
           </div>
         )}
       </UserContext.Consumer>
