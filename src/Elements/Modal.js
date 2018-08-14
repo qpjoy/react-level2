@@ -30,7 +30,7 @@ const ModalWrapper = styled.div`
   display: flex;
   height: 100%;
   justify-content: center;
-  ${absolute()};
+  ${absolute({})};
   top: 0;
   width: 100%;
 `;
