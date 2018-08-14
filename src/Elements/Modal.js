@@ -46,9 +46,9 @@ const CloseButton = styled.button`
   background: transparent;
   border: none;
   padding: 10px;
-  position: absolute;
-  right: 0;
-  top: 0;
+  ${absolute({
+    x: 'right'
+  })};
 `;
 
 const Background = styled.div`
