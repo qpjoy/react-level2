@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Portal } from 'Utilities';
+import { Portal, absolute } from 'Utilities';
 import { Card } from './Cards';
 import Icon from './Icon';
 
@@ -30,8 +30,7 @@ const ModalWrapper = styled.div`
   display: flex;
   height: 100%;
   justify-content: center;
-  left: 0;
-  position: absolute;
+  ${absolute()};
   top: 0;
   width: 100%;
 `;
