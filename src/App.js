@@ -7,6 +7,12 @@ import { Modal } from 'Elements';
 const UserContext = createContext();
 
 class UserProvider extends Component {
+  state = {
+    id: '123',
+    name: 'Bryan',
+    email: 'example@gmail.com'
+  };
+
   return() {
     <UserContext.Provider>{this.props.children}</UserContext.Provider>;
   }
