@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import { UserContext } from './UserContext';
 
 export default class User extends Component {
   render() {
     return (
-      <div>
-        <h1>User Info</h1>
-      </div>
+      <UserContext.Consumer>
+        {context => (
+          <div>
+            <h1>User Info</h1>
+          </div>
+        )}
+      </UserContext.Consumer>
     );
   }
 }
