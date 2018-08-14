@@ -11,5 +11,6 @@ import colors from './colors';
 // This is because we have a global and individual export from './colors';
 
 export * from './colors';
+export * from './position';
 
 export { Portal, Toggle, elevation, transition, colors };
