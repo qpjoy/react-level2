@@ -6,6 +6,12 @@ import { Modal } from 'Elements';
 
 const UserContext = createContext();
 
+class UserProvider extends Component {
+  return() {
+    <UserContext.Provider>{this.props.children}</UserContext.Provider>;
+  }
+}
+
 class App extends Component {
   render() {
     return (
