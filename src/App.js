@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Toggle, Portal, Modal } from './Utilities';
+import logo from 'logo.svg';
+import 'App.css';
+import { Toggle, Portal, Modal } from 'Utilities';
 
 class App extends Component {
   render() {

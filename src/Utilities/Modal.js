@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Portal from './Portal';
-import Icon from './Icon';
-// absolute import
+import { Portal, Icon } from 'Utilities';
 import { Card } from 'Elements';
 
 export default class Modal extends Component {
