@@ -1,8 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment, createContext } from 'react';
 import logo from 'logo.svg';
 import 'App.css';
 import { Toggle, Portal } from 'Utilities';
 import { Modal } from 'Elements';
+
+const UserContext = createContext();
 
 class App extends Component {
   render() {
