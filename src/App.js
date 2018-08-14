@@ -3,6 +3,7 @@ import logo from 'logo.svg';
 import 'App.css';
 import { Toggle, Portal } from 'Utilities';
 import { Modal } from 'Elements';
+import User from './User';
 
 const UserContext = createContext();
 
@@ -36,6 +37,7 @@ class App extends Component {
             <h1 className="App-title">Welcome to React</h1>
           </header>
           <Modal />
+          <User />
           <Toggle>
             {({ on, toggle }) => (
               <Fragment>
