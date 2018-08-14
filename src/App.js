@@ -1,11 +1,10 @@
-import React, { Component, Fragment, createContext } from 'react';
+import React, { Component, Fragment } from 'react';
 import logo from 'logo.svg';
 import 'App.css';
 import { Toggle, Portal } from 'Utilities';
 import { Modal } from 'Elements';
 import User from './User';
-
-const UserContext = createContext();
+import { UserContext } from './UserContext';
 
 class UserProvider extends Component {
   state = {
